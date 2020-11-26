@@ -25,5 +25,6 @@ build = {
     type = 'builtin';
     modules = {
         ['stuff'] = 'stuff/init.lua';
+        ['stuff.ffi_include'] = 'stuff/ffi_include.lua';
     }
 }
