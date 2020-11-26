@@ -2,7 +2,7 @@
 local fio = require("fio")
 local ffi = require("ffi")
 
-function ffi_include(filename)
+local function ffi_include(filename)
         local path = fio.cwd()
         path = fio.pathjoin(path, filename)
 
